@@ -27,7 +27,7 @@ elif keuze == "b":
     A. Zwaard
     B. Compas""")
     keuze = input(">>> ").lower()
-    if keuze == "zwaard":
+    if keuze == "a":
         print ("""Je ziet een monster, ga je het gevecht aan of ga je vragen of je er langs mag.
         A. Gevecht
         B. Vragen of je er langs mag""")
@@ -37,7 +37,7 @@ elif keuze == "b":
         elif keuze == "b":
             print ("Hij laat je er langs!")
             print ("Je hebt de uitgang gevonden! Gelukkig!")
-    elif keuze == "compas":
+    elif keuze == "b":
         print ("""Gaat u links af of rechts af?
         A. Links af
         B. Rechts af""")
